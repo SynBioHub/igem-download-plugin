@@ -33,6 +33,8 @@ async function run(req: Request, res: Response) {
     let sbolUrl: string = req.body.shallow_sbol
     let topLevelUri: string = req.body.top_level
 
+    console.log(req.body)
+
     let graph: SBOL2Graph = await SBOL2Graph.loadURL(sbolUrl)
     let topLevel = graph.uriToFacade(topLevelUri)
 

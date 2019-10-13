@@ -1,0 +1,7 @@
+{
+  "complete_sbol":"http://localhost:8888/public/igem/igem_collection/1/sbol",
+  "shallow_sbol":"http://localhost:8888/public/igem/igem_collection/1/sbolnr",
+  "top_level":"http://localhost:8888/public/igem/igem_collection/1",
+  "size":14587,
+  "instanceUrl":"http://localhost:8888/"
+}
